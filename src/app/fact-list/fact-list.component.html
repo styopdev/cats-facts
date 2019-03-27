@@ -1,0 +1,11 @@
+<table class="facts-table" border="1px" cellspacing="0">
+  <tr *ngFor="let fact of facts">
+    <td> {{ fact._id }} </td>
+    <td> {{ fact.createdAt | date }} </td>
+    <td>
+      <a [routerLink]="['/fact', fact._id]">
+        {{ fact.text.substr(0, 50) }}...
+      </a>
+    </td>
+  </tr>
+</table>

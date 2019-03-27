@@ -1,0 +1,20 @@
+.facts-table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.facts-table td {
+  padding: 10px 0;
+}
+
+.facts-table td:nth-child(1) {
+  width: 25%;
+}
+
+.facts-table td:nth-child(2) {
+  width: 15%;
+}
+
+.facts-table td:nth-child(3) {
+  width: 60%;
+}
